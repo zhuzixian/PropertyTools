@@ -548,7 +548,7 @@ namespace PropertyTools.Wpf
         /// <summary>
         /// The auto filler.
         /// </summary>
-        private AutoFiller autoFiller;
+        protected AutoFiller autoFiller;
 
         /// <summary>
         /// The index in the sheet grid where new cells can be inserted.

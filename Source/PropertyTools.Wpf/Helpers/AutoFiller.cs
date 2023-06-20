@@ -76,7 +76,7 @@ namespace PropertyTools.Wpf
         /// <returns>
         /// True if extrapolation was successful.
         /// </returns>
-        public bool TryExtrapolate(
+        public virtual bool TryExtrapolate(
             CellRef cell, CellRef currentCell, CellRef selectionCell, CellRef autoFillRef, out object result)
         {
             int selMinRow = Math.Min(currentCell.Row, selectionCell.Row);

@@ -11,7 +11,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>wpf controls propertygrid dataform datagrid treeview colorpicker</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>23.5.9</Version>
+    <Version>9999.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\..\Images\icon.png" Pack="true" PackagePath="\" />
